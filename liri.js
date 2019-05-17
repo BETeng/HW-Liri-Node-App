@@ -73,7 +73,7 @@ if (process.argv[2] == 'movie-this' && process.argv[3] != undefined) {
   );
   
 }
-else {
+else if (process.argv[2] == 'movie-this'){
   let title = 'Mr. Nobody'
   axios.get("http://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy").then(
     function (response) {

@@ -1,2 +1,8 @@
-# HW-Liri-Node-App
-wk 10 hw
+# HW-Liri-Node-App 
+## A CLI app that will give you information about your favorite song, artist, or movie
+
+The app will be run in terminal and will take in 4 commands:
+  * movie-this <movie title>
+  * concert-this <artist name>
+  * spotify-this-song <song name>
+  * do-what-it-says
